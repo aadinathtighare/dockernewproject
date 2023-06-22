@@ -1,7 +1,7 @@
 version: '3'
 services:
   delhi:
-    image: aadinath/rahambhau:latest
+    image: satishjagana/engineeringrepo:latest
     ports:
       - "90:80"
     volumes:
