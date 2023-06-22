@@ -3,35 +3,27 @@ services:
   delhi:
     image: satishjagana/engineeringrepo:latest
     ports:
-      - "100:80"
-    volumes:
-      - "delhivol"
+      - "104:80"
     deploy:
       replicas: 3
 
   mumbai:
     image: aadinath/rahambhau1:latest
     ports:
-      - "101:80"
-    volumes:
-      - "mumbaivol"
+      - "105:80"
     deploy:
       replicas: 3
 
   hyd1:
     image: aadinath/rahambhau2:latest
     ports:
-      - "102:80"
-    volumes:
-      - "hyd1vol"
+      - "106:80"
     deploy:
       replicas: 3
 
   csk:
     image: aadinath/rahambhau3:latest
     ports:
-      - "103:80"
-    volumes:
-      - "cskvol"
+      - "107:80"
     deploy:
       replicas: 3
